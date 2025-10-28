@@ -76,6 +76,14 @@
       transform: translateX(-50%);
     }
   }
+  /* .gradient-conic {
+    background: conic-gradient(
+      red 0deg 90deg,
+      blue 90deg 180deg,
+      yellow 180deg 270deg,
+      green 270deg 360deg
+    );
+  } */
 }
 
 @layer components {
