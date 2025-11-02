@@ -86,7 +86,7 @@ const Footer = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Your email"
-              className="rounded border border-soft-blue/30 px-6 py-[1.375rem] grow text-base font-normal text-soft-blue placeholder:text-base placeholder:font-normal placeholder:leading-none placeholder:text-soft-blue/80 focus:ring-1"
+              className="rounded border border-soft-blue/30 px-6 py-[1.375rem] grow text-base font-normal text-soft-blue placeholder:text-base placeholder:font-normal placeholder:leading-none placeholder:text-soft-blue/80 focus:ring-1 w-full"
             />
             <button className="btn btn-white" type="submit">
               Subscribe

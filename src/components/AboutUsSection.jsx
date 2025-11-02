@@ -10,12 +10,12 @@ const AboutUsSection = () => {
   const shortDes = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.'
   const des = '‍Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.'
   return (
-    <section className="pt-[5.375rem] pb-[4.625rem] bg-white">
+    <section className="py-12 lg:pt-[5.375rem] lg:pb-[4.625rem] bg-white">
       <div className="container space-y-8 lg:space-y-16">
         <div className="flex gap-12 lg:gap-[5.375rem] flex-col lg:flex-row lg:items-end ">
           <div className="flex flex-col gap-8 lg:pb-[1.896rem]">
             <SectionLabel label="Know About us" />
-            <div className="pl-24 flex flex-col gap-8">
+            <div className="lg:pl-24 flex flex-col gap-8">
               <Content SectionTitle={SectionTitle} shortDes={shortDes} des={des} />
               <div className="pt-4">
               <Link to="/" className="btn btn-primary">Learn more</Link>

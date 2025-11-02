@@ -5,8 +5,8 @@ import { Link } from "react-router";
 const DonateForSpecialNeeds = () => {
   return (
     <div
-      className="p-12 lg:p-[5.75rem] bg-no-repeat bg-center bg-cover rounded-2xl relative overflow-hidden z-10 before:absolute before:inset-0 before:bg-black/50 before:-z-10"
-      style={{ background: `url(${bg})` }}
+      className="p-6 lg:p-[5.75rem] bg-no-repeat bg-center bg-cover rounded-2xl relative overflow-hidden z-10 before:absolute before:inset-0 before:bg-black/50 before:-z-10"
+      style={{ backgroundImage: `url(${bg})`}}
     >
       <div className="max-w-[50.313rem] mx-auto space-y-8">
         <h2 className="text-center text-white">

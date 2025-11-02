@@ -41,7 +41,7 @@ const Header = () => {
           <img src={logo} alt="logo" />
         </Link>
         <nav
-          className={`grow lg:flex lg:justify-center hidden h-screen lg:h-auto w-10/12 lg:w-auto absolute lg:static inset-0 lg:inset-auto pt-24 lg:pt-0 p-6 lg:p-0 bg-black/70 ${
+          className={`grow lg:flex lg:justify-center hidden h-screen lg:h-auto w-10/12 lg:w-auto absolute lg:static inset-0 lg:inset-auto pt-24 lg:pt-0 p-6 lg:p-0 bg-black/70 lg:bg-transparent ${
             isMenuOpen ? "!flex" : "hidden"
           }`}
         >
@@ -51,7 +51,7 @@ const Header = () => {
           >
             <IoCloseSharp className="text-black text-2xl font-bold" />
           </button>
-          <ul className="flex flex-col lg:flex-row items-center gap-4 w-full lg:w-auto overflow-y-scroll">
+          <ul className="flex flex-col lg:flex-row items-center gap-4 w-full lg:w-auto overflow-y-scroll lg:overflow-y-auto">
             {menus.map((menu) => (
               <li key={menu.id} className="w-full text-center lg:w-auto">
                 <NavLink

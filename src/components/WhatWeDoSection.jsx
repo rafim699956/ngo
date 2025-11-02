@@ -10,11 +10,11 @@ const WhatWeDoSection = () => {
   const des =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.";
   return (
-    <section className="py-24 bg-primary-light">
+    <section className="py-12 lg:py-24 bg-primary-light">
       <div className="container space-y-4 lg:space-y-8">
         <SectionLabel label="what we do" />
         <div className="flex items-center gap-12 lg:gap-24 flex-col lg:flex-row">
-          <div className="space-y-8 pl-[5.375rem]">
+          <div className="space-y-8 lg:pl-[5.375rem]">
             <div className="space-y-4">
               <Content SectionTitle={sectionTitle} des={des} />
             </div>
