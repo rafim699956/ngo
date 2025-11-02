@@ -22,12 +22,12 @@ const Footer = () => {
   };
 
   return (
-    <footer className="py-24 bg-primary-dark">
-      <div className="container mx-auto px-3 flex justify-between">
-        <Link className="w-[7.813rem] block" to="/">
+    <footer className="py-12 lg:py-24 bg-primary-dark">
+      <div className="container mx-auto px-3 flex flex-col lg:flex-row justify-between gap-8">
+        <Link className="w-[7.813rem] shrink-0 block" to="/">
           <img className="w-full max-w-full" src={logo} alt="logo" />
         </Link>
-        <div className="flex justify-between gap-[5.5rem]">
+        <div className="flex flex-wrap justify-between gap-[5.5rem]">
           <div className="space-y-6">
             <div className="flex flex-col gap-6">
               {footerLinks.map((item) => (

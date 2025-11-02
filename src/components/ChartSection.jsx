@@ -68,7 +68,7 @@ const ChartSection = () => {
           </div>
         </div>
         <div className="size-[23.438rem] rounded-full bg-white relative overflow-hidden flex before:absolute before:size-[11.718rem] before:bg-black before:rounded-full before:top-1/2 before:left-1/2 before:transform before:-translate-x-1/2 before:-translate-y-1/2 gradient-conic">
-        <div className="w-full" style={{background: gradient}}></div>
+          <div className="w-full" style={{ background: gradient }}></div>
         </div>
       </div>
     </section>
