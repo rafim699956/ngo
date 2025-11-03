@@ -3,7 +3,7 @@ import { logos } from "../utilis/logos";
 
 const OurSupporter = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-4 lg:gap-8">
       <div className="flex gap-6 items-center">
         <p className="font-roboto font-medium text-base leading-[1.188rem] text-secondary uppercase">
           our Supporters

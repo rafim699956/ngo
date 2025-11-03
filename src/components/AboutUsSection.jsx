@@ -12,12 +12,12 @@ const AboutUsSection = () => {
   return (
     <section className="py-12 lg:pt-[5.375rem] lg:pb-[4.625rem] bg-white">
       <div className="container space-y-8 lg:space-y-16">
-        <div className="flex gap-12 lg:gap-[5.375rem] flex-col lg:flex-row lg:items-end ">
+        <div className="flex gap-10 lg:gap-[5.375rem] flex-col lg:flex-row lg:items-end ">
           <div className="flex flex-col gap-8 lg:pb-[1.896rem]">
             <SectionLabel label="Know About us" />
-            <div className="lg:pl-24 flex flex-col gap-8">
+            <div className="lg:pl-24 flex flex-col gap-4 lg:gap-8">
               <Content SectionTitle={SectionTitle} shortDes={shortDes} des={des} />
-              <div className="pt-4">
+              <div className="lg:pt-4">
               <Link to="/" className="btn btn-primary">Learn more</Link>
               </div>
             </div>

@@ -10,7 +10,7 @@ const BannerHome = () => {
       className="py-14 lg:pt-[6.75rem] lg:pb-[4rem] relative z-10 after:absolute after:inset-0 after:bg-black/60 after:-z-10 bg-no-repeat bg-center bg-cover"
       style={{ backgroundImage: `url(${bannerImg})` }}
     >
-      <div className="container flex flex-col gap-16 lg:gap-[12rem]">
+      <div className="container flex flex-col gap-10 lg:gap-[12rem]">
         <div className="max-w-[40rem] flex flex-col gap-6 lg:gap-12">
           <h1 className="text-white text-4xl leading-[2.75rem] lg:text-[4rem] lg:leading-[4.8rem]">
             Inclusive care for children with special needs
