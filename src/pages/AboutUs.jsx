@@ -1,12 +1,19 @@
 import React from "react";
+import OurMissionVision from "../components/OurMissionVision";
+import OurEventSection from "../components/OurEventSection";
+import OurTeam from "../components/OurTeam";
+import AwardSection from "../components/AwardSection";
+import OurJourney from "../components/OurJourney";
 
 const AboutUs = () => {
   return (
-    <section className="py-5 bg-green-600">
-      <div className="container">
-        <h1 className="text-6xl font-bold text-white">AboutUs</h1>
-      </div>
-    </section>
+    <>
+      <AwardSection />
+      <OurJourney />
+      <OurTeam />
+      <OurMissionVision />
+      <OurEventSection />
+    </>
   );
 };
 
