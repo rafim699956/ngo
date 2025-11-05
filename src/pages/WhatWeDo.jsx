@@ -1,12 +1,17 @@
 import React from "react";
+import WhatWeDoSpecialNeeds from "../components/WhatWeDoSpecialNeeds";
+import ProjectSection from "../components/ProjectSection";
+import OurEventSection from "../components/OurEventSection";
+import WhatWeDoHeroContent from "../components/WhatWeDoHeroContent";
 
 const WhatWeDo = () => {
   return (
-    <section className="py-5 bg-green-600">
-      <div className="container">
-        <h1 className="text-6xl font-bold text-white">What We Do</h1>
-      </div>
-    </section>
+    <>
+    <WhatWeDoHeroContent />
+      <WhatWeDoSpecialNeeds />
+      <ProjectSection />
+      <OurEventSection />
+    </>
   );
 };
 

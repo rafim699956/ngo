@@ -1,12 +1,11 @@
 import React from "react";
+import OurTeam from "../components/OurTeam";
 
 const Team = () => {
   return (
-    <section className="py-5 bg-green-600">
-      <div className="container">
-        <h1 className="text-6xl font-bold text-white">team</h1>
-      </div>
-    </section>
+    <div className="pb-12 lg:pb-24">
+      <OurTeam />
+    </div>
   );
 };
 

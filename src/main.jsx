@@ -13,6 +13,7 @@ import Team from "./pages/Team.jsx";
 import Projects from "./pages/Projects.jsx";
 import Events from "./pages/Events.jsx";
 import Blog from "./pages/Blog.jsx";
+import ErrorPage from "./pages/ErrorPage.jsx";
 
 const root = document.getElementById("root");
 
@@ -30,6 +31,7 @@ ReactDOM.createRoot(root).render(
         <Route path="/project" element={<Projects />} />
         <Route path="/event" element={<Events />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/*" element={<ErrorPage />} />
       </Route>
     </Routes>
   </BrowserRouter>

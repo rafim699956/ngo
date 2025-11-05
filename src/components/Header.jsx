@@ -55,6 +55,7 @@ const Header = () => {
               <li key={menu.id} className="w-full text-center lg:w-auto">
                 <NavLink
                   to={menu.path}
+                  onClick={() => setIsMenuOpen(false)}
                   className={({ isActive }) =>
                     `py-4 px-5  font-medium text-base text-nowrap block w-full lg:w-auto ${
                       isActive

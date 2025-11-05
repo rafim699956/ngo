@@ -3,7 +3,7 @@ import TeamMember from "./TeamMember";
 
 const OurTeam = () => {
   return (
-    <section>
+    <section className="pt-12 lg:pt-24 bg-white">
       <div className="container space-y-6 lg:space-y-12">
         <div className="max-w-[32.438rem] mx-auto space-y-3 lg:space-y-4 text-center">
           <h2>Meet our team</h2>

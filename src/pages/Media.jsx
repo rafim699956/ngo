@@ -1,12 +1,13 @@
 import React from "react";
+import OurEventSection from "../components/OurEventSection";
+import TopNews from "../components/TopNews";
 
 const Media = () => {
   return (
-    <section className="py-5 bg-green-600">
-      <div className="container">
-        <h1 className="text-6xl font-bold text-white">Media</h1>
-      </div>
-    </section>
+    <>
+      <TopNews />
+      <OurEventSection />
+    </>
   );
 };
 
